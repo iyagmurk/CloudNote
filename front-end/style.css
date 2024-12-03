@@ -1,29 +1,27 @@
-/* Genel ayarlar */
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f5f5fa; /* Açık mor arka plan */
+    background-color: #f5f5fa; 
     color: #333;
 }
 
-/* Konteyner */
+
 .container {
     max-width: 800px;
     margin: 50px auto;
     padding: 20px;
-    background-color: #ffffff; /* Beyaz arka plan */
+    background-color: #ffffff; 
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
 }
 
-/* Başlık */
 h1, h2 {
-    color: #6a0dad; /* Mor tonlarında başlık rengi */
+    color: #6a0dad; 
     text-align: center;
 }
 
-/* Form */
 .form-container {
     display: flex;
     flex-direction: column;
@@ -58,7 +56,7 @@ button {
 }
 
 button:hover {
-    background-color: #5a009d; /* Daha koyu mor hover rengi */
+    background-color: #5a009d; 
 }
 
 /* Notlar */
@@ -70,7 +68,7 @@ button:hover {
 
 .note {
     padding: 15px;
-    background-color: #faf5ff; /* Açık mor tonlarında arka plan */
+    background-color: #faf5ff; 
     border: 1px solid #ddd;
     border-radius: 5px;
     box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
@@ -97,12 +95,12 @@ button:hover {
 }
 
 .note button:first-of-type {
-    background-color: #bb97dd ; /* Yeşil (Edit) */
+    background-color: #bb97dd ; 
     color: white;
 }
 
 .note button:last-of-type {
-    background-color: #f4abc2; /* Kırmızı (Delete) */
+    background-color: #f4abc2;
     color: white;
 }
 
