@@ -1,0 +1,111 @@
+/* Genel ayarlar */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5fa; /* Açık mor arka plan */
+    color: #333;
+}
+
+/* Konteyner */
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #ffffff; /* Beyaz arka plan */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+/* Başlık */
+h1, h2 {
+    color: #6a0dad; /* Mor tonlarında başlık rengi */
+    text-align: center;
+}
+
+/* Form */
+.form-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 14px;
+    outline: none;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+input:focus, textarea:focus {
+    border-color: #6a0dad;
+    box-shadow: 0px 0px 5px rgba(106, 13, 173, 0.5);
+}
+
+button {
+    padding: 10px;
+    font-size: 16px;
+    color: #ffffff;
+    background-color: #6a0dad;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    background-color: #5a009d; /* Daha koyu mor hover rengi */
+}
+
+/* Notlar */
+#notes-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.note {
+    padding: 15px;
+    background-color: #faf5ff; /* Açık mor tonlarında arka plan */
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.note h3 {
+    margin: 0 0 10px 0;
+    color: #6a0dad;
+}
+
+.note p {
+    margin: 0 0 10px 0;
+    font-size: 14px;
+    color: #555;
+}
+
+.note button {
+    margin: 5px 5px 0 0;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.note button:first-of-type {
+    background-color: #bb97dd ; /* Yeşil (Edit) */
+    color: white;
+}
+
+.note button:last-of-type {
+    background-color: #f4abc2; /* Kırmızı (Delete) */
+    color: white;
+}
+
+.note button:hover {
+    opacity: 0.9;
+}
