@@ -43,7 +43,7 @@ Frontend:
 
 1)Open the front-end/ folder.
 
-2) index.html in any web browser.
+2)index.html in any web browser.
 
 3)The app will load and connect to the backend running on localhost.
 
